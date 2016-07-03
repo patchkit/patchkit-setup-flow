@@ -24,6 +24,7 @@
     "patchkit-form-profile-name": "^1.0.0",
     "patchkit-modal": "^1.0.3",
     "patchkit-rainbow-text": "^1.0.0",
+    "patchwork-translations": "^1.0.0",
     "react": "^0.14.6",
     "ssb-msg-schemas": "^6.2.1"
   },

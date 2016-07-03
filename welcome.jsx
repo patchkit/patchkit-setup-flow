@@ -1,5 +1,6 @@
 import React from 'react'
 import RainbowText from 'patchkit-rainbow-text'
+import t from 'patchwork-translations'
 
 export default class WelcomeForm extends React.Component {
   static propTypes = {
@@ -15,8 +16,8 @@ export default class WelcomeForm extends React.Component {
   }
   render() {
     return <div className="text-center vertical-center">
-      <h1>Welcome to <RainbowText text="Patchwork" /></h1>
-      <h3>{"Let's"} get started.</h3>
+      <h1>{t('setup.WelcomeToPW')} <RainbowText text={t('Patchwork')} /></h1>
+      <h3>{t('setup.GetStarted')}</h3>
     </div>
   }
 }
