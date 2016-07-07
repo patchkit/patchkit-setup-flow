@@ -1,6 +1,6 @@
 {
   "name": "patchkit-setup-flow",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Modal flow for new user setup",
   "main": "index.jsx",
   "scripts": {
